@@ -14,6 +14,11 @@ public class Burger2 {
     //Men onun obyektin yaradan zaman Builder Patternden istifade ede bilim
     // +Burger2 oz konstruktorun yazsaq gerek her defe yene elave constructor yaza budaki builder pattern
     // prinsipin pozacaq
+
+
+    //Sanki BurgerBuilder bir "resept"dir, Burger2 isə o reseptlə bişirilmiş burgerdir.
+    // Resepti (builder) alırsan, içində nə varsa (getBread(), getMeat() və s.),
+    // hazır burgerin (this) içinə yerləşdirirsən
     public Burger2(BurgerBuilder builder) {
         this.bread = builder.getBread();
         this.meat = builder.getMeat();

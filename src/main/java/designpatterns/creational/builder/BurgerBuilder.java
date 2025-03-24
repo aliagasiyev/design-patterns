@@ -44,11 +44,11 @@ public class BurgerBuilder {
         return this;
     }
 
+    //build() = "Indi bu reseptdən burgeri bişir və mənə ver!"
     public Burger2 build() {
         return new Burger2(this);
     }
 
-    // Getter methods
     public String getBread() { return bread; }
     public String getMeat() { return meat; }
     public String getCheese() { return cheese; }
