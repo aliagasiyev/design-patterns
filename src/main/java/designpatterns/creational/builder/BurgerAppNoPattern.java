@@ -3,7 +3,11 @@ package designpatterns.creational.builder;
 public class BurgerAppNoPattern {
     public static void main(String[] args) {
 
-        Burger1 burger1ForAli = new Burger1("White", "Chicken", "Cow", true, true);
+         // Üstəlik, hər hansı yeni parametr əlavə etsək,
+        // bütün konstruktorları dəyişməli oluruq.
+
+
+         Burger1 burger1ForAli = new Burger1("White", "Chicken", "Cow", true, true);
         System.out.println("Burger For Ali " + burger1ForAli);
 
 

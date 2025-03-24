@@ -15,7 +15,6 @@ public class Burger2 {
     // +Burger2 oz konstruktorun yazsaq gerek her defe yene elave constructor yaza budaki builder pattern
     // prinsipin pozacaq
 
-
     //Sanki BurgerBuilder bir "resept"dir, Burger2 isə o reseptlə bişirilmiş burgerdir.
     // Resepti (builder) alırsan, içində nə varsa (getBread(), getMeat() və s.),
     // hazır burgerin (this) içinə yerləşdirirsən
